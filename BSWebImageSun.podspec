@@ -15,18 +15,18 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "BSWebImage"
+  s.name         = "BSWebImageSun"
   s.version      = "0.0.1"
-  s.summary      = "A short description of BSWebImage."
+  s.summary      = "Test BSWebImage."
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-		Test BaseShell
-                   DESC
+  # s.description  = <<-DESC
+  #		Test BaseShell
+  #                 DESC
 
   s.homepage     = "https://github.com/captain91/BSTest.git"
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
@@ -92,7 +92,7 @@ Pod::Spec.new do |s|
   #
 
   s.source_files  = "libBSWebImage/**"
-  s.exclude_files = "Classes/Exclude"
+  # s.exclude_files = "Classes/Exclude"
 
   # s.public_header_files = "Classes/**/*.h"
 
